@@ -90,7 +90,7 @@ let ajouteTask=(data)=>{
         xhr.addEventListener("error", () => {
           alert("error");
         });
-        xhr.send();
+        xhr.send();   
     })
     checkBtn.addEventListener("click",()=>{
         const xhr = new XMLHttpRequest();
